@@ -132,6 +132,7 @@ public class ActionProcessButton extends ProcessButton {
             setupProgressBarBounds();
             mProgressBar.setColorScheme(mColor1, mColor2, mColor3, mColor4);
             mProgressBar.start();
+
         }
 
         if (getProgress() > 0) {
@@ -142,7 +143,7 @@ public class ActionProcessButton extends ProcessButton {
     private void setupProgressBarBounds() {
         double indicatorHeight = getDimension(R.dimen.layer_padding);
         int bottom = (int) (getMeasuredHeight() - indicatorHeight);
-        mProgressBar.setBounds(0, bottom, getMeasuredWidth(), getMeasuredHeight());
+        mProgressBar.setBounds(0, getMeasuredHeight(), getMeasuredWidth(), getMeasuredHeight());
     }
 
     public static class ProgressBar {
