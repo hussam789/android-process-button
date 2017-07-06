@@ -1,5 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -24,5 +25,28 @@
         android:textSize="18sp"
         custom:pb_textComplete="@string/Done"
         custom:pb_textProgress="@string/Uploading" />
+
+    <com.dd.processbutton.iml.ActionProcessButton
+        android:id="@+id/get_started_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="48dip"
+        android:layout_marginRight="48dip"
+        android:layout_marginTop="8dip"
+        android:background="@drawable/rounded_corner_white"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dip"
+        android:text="GET STARTED"
+        android:textColor="#00aeac"
+        android:textSize="24sp"
+        app:pb_colorNormal="#ffffff"
+        app:pb_colorProgress="#ffffff"
+        app:pb_cornerRadius="6dip"
+        app:pb_textProgress="LOADING..."
+        ></com.dd.processbutton.iml.ActionProcessButton>
 
 </LinearLayout>

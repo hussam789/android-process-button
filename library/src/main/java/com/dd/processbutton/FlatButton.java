@@ -73,9 +73,9 @@ public class FlatButton extends Button {
                 (GradientDrawable) drawableNormal.getDrawable(0).mutate();
         drawableTop.setCornerRadius(getCornerRadius());
 
-        int blueDark = getColor(R.color.blue_pressed);
-        int colorPressed = attr.getColor(R.styleable.FlatButton_pb_colorPressed, blueDark);
-        drawableTop.setColor(colorPressed);
+//        int blueDark = getColor(R.color.blue_pressed);
+//        int colorPressed = attr.getColor(R.styleable.FlatButton_pb_colorPressed, blueDark);
+//        drawableTop.setColor(colorPressed);
 
 //        GradientDrawable drawableBottom =
 //                (GradientDrawable) drawableNormal.getDrawable(1).mutate();
