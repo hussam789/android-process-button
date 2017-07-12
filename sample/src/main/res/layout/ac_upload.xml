@@ -49,4 +49,12 @@
         app:pb_textProgress="LOADING..."
         ></com.dd.processbutton.iml.ActionProcessButton>
 
+    <com.dd.processbutton.iml.ActionProcessButton
+        android:id="@+id/publish_card"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:text=" Publish"
+        android:textColor="@android:color/white"
+        custom:pb_colorNormal="@android:color/white"
+        android:textSize="16sp"/>
 </LinearLayout>
